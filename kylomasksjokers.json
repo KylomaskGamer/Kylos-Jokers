@@ -1,0 +1,18 @@
+{
+  "id": "kylomasksjokers",
+  "name": "Kylomask's Jokers",
+  "author": [
+    "KylomaskGamer"
+  ],
+  "description": "8 sets of jokers, with unique abilities each! Synergize them all, and jimbob around",
+  "prefix": "kylomask",
+  "main_file": "main.lua",
+  "version": "1.0.0",
+  "priority": 0,
+  "badge_colour": "777799",
+  "badge_text_colour": "FFFFFF",
+  "display_name": "Kylo's Jokers",
+  "dependencies": [
+    "Steamodded (>=1.0.0~BETA-0827c)"
+  ]
+}
