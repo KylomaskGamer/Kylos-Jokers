@@ -32,7 +32,7 @@ SMODS.Joker{ --Avocado
     unlocked = true,
     discovered = true,
     atlas = 'CustomJokers',
-    pools = { ["kylomask_kylomask_jokers"] = true },
+    pools = { ["kylomask_kylomask_jokers"] = true, ["kylomask_jimbob"] = true },
 
     
     calculate = function(self, card, context)
