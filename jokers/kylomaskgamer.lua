@@ -55,7 +55,7 @@ SMODS.Joker { --KylomaskGamer
 
     loc_vars = function(self, info_queue, card)
         local flushes = G.GAME.hands['Flush'].played or 0
-        local pow = 1 + math.log(1 + flushes, 4) -- log base 4, min 1
+        local pow = 1 + math.log(math.max(1,flushes), 4) -- log base 4, min 1
         return { vars = { flushes, pow } }
     end,
 
@@ -76,7 +76,7 @@ SMODS.Joker { --KylomaskGamer
 
         if context.cardarea == G.jokers and context.joker_main then
             local flushes = G.GAME.hands['Flush'].played or 0
-            card.ability.extra.pow = 1 + math.log(1 + flushes, 4) -- pow = X1 Chips, min 1, log base 4
+            card.ability.extra.pow = 1 + math.log(math.max(1,flushes), 4) -- pow = X1 Chips, min 1, log base 4
             return {
                 x_chips = card.ability.extra.pow
             }
