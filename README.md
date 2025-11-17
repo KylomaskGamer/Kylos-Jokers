@@ -20,6 +20,13 @@ Additions:
 One of the main collections of the mod, where literally every joker has Jimbob involved in it!
 You cant get away from them for a SECOND! 
 
+# Dependencies
+
+```
+Steammodded >= v1.0.0~BETA-1016c
+Talisman >= v2.6
+```
+
 # Credits
 
 KylomaskGamer - Ideas and Programming
