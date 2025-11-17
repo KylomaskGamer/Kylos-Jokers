@@ -16,8 +16,8 @@ SMODS.Joker{ --Triple-Blurred Barely Jumbled Jimbob
         }
     },
     pos = {
-        x = 0,
-        y = 0
+        x = 5,
+        y = 2
     },
     display_size = {
         w = 71 * 1, 
