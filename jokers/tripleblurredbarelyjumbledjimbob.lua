@@ -31,7 +31,7 @@ SMODS.Joker{ --Triple-Blurred Barely Jumbled Jimbob
     unlocked = true,
     discovered = true,
     atlas = 'Joker',
-    pools = { ["modprefix_kylomask_jokers"] = true },
+    pools = { ["kylomask_kylomask_jokers"] = true, ["kylomask_jimbob"] = true },
 
     
     calculate = function(self, card, context)
