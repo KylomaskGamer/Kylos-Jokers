@@ -3,12 +3,12 @@ SMODS.Booster {
     loc_txt = {
         name = "Jimbob Pack",
         text = {
-            [1] = 'Select {C:attention}1{} from {C:attention}3{} Jimbob Jokers',
+            [1] = 'Select {C:attention}1{} from {C:attention}4{} Jimbob Jokers',
             [2] = 'Standard Odds'
         },
         group_name = "kylomask_boosters"
     },
-    config = { extra = 5, choose = 1 },
+    config = { extra = 4, choose = 1 },
     weight = 3,
     atlas = "CustomBoosters",
     pos = { x = 0, y = 0 },
