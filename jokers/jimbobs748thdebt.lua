@@ -38,7 +38,7 @@ SMODS.Joker { --Jimbobs 748th Debt
 
     loc_vars = function(self, info_queue, card)
         local money = G.GAME.dollars or 0
-        local xmult = 1 + math.log(1 + money, 10) -- log base 10, min 1
+        local xmult = 1 + math.log(math.max(1,money), 10) -- log base 10, min 1
         return { vars = { xmult, money  } }
     end,
 
@@ -46,7 +46,7 @@ SMODS.Joker { --Jimbobs 748th Debt
         if context.cardarea == G.jokers and context.joker_main then
             local money = G.GAME.dollars or 0
             card.ability.extra.currentmoney = money
-            card.ability.extra.xmult = 1 + math.log(1 + money, 10) -- Xmult = pow, log₁₀
+            card.ability.extra.xmult = 1 + math.log(math.max(1,money), 10) -- Xmult = pow, log₁₀
             return {
                 Xmult = card.ability.extra.xmult
             }
