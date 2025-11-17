@@ -20,6 +20,14 @@ Additions:
 One of the main collections of the mod, where literally every joker has Jimbob involved in it!
 You cant get away from them for a SECOND! 
 
+# Credits
+
+KylomaskGamer - Ideas and Programming
+
+Tools:
+- Chatgpt for mainly debugging
+- Jokerforge for most of the programming
+
 # seal
 
 <img width="640" height="758" alt="image" src="https://github.com/user-attachments/assets/52d1bba6-37ad-4a13-8723-b0a9e6de16a4" />
