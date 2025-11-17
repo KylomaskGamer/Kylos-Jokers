@@ -30,7 +30,7 @@ SMODS.Joker{ --Triple-Blurred Barely Jumbled Jimbob
     perishable_compat = true,
     unlocked = true,
     discovered = false,
-    atlas = 'Joker',
+    atlas = 'CustomJokers',
     pools = { ["kylomask_kylomask_jokers"] = true, ["kylomask_jimbob"] = true },
 
     
