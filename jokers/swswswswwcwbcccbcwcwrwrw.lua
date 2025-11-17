@@ -32,9 +32,9 @@ SMODS.Joker{ --SwSwSwSw:WcWbCcCb:--------:----cwcw:RwRw----
     eternal_compat = true,
     perishable_compat = true,
     unlocked = true,
-    discovered = true,
+    discovered = false,
     atlas = 'CustomJokers',
-    pools = { ["kylomask_kylomask_jokers"] = true },
+    pools = { ["kylomask_kylomask_jokers"] = true, ["kylomask_jimbob"] = true },
 
     
     calculate = function(self, card, context)
