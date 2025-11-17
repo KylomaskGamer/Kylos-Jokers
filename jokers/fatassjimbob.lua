@@ -8,7 +8,7 @@ SMODS.Joker{ --Fatass Jimbob
     loc_txt = {
         ['name'] = 'Fatass Jimbob',
         ['text'] = {
-            [1] = '{C:red}-2{} Joker slots',
+            [1] = '{C:red}-1{} Joker slots',
             [2] = '{X:enhanced,C:white}^1.5{} Mult'
         },
         ['unlock'] = {
@@ -20,11 +20,11 @@ SMODS.Joker{ --Fatass Jimbob
         y = 2
     },
     display_size = {
-        w = 71 * 3, 
+        w = 71 * 2, 
         h = 95 * 1
     },
     cost = 7,
-    rarity = 2,
+    rarity = 3,
     blueprint_compat = true,
     eternal_compat = true,
     perishable_compat = true,
@@ -43,10 +43,10 @@ SMODS.Joker{ --Fatass Jimbob
     end,
 
     add_to_deck = function(self, card, from_debuff)
-        G.jokers.config.card_limit = math.max(1, G.jokers.config.card_limit - 2)
+        G.jokers.config.card_limit = math.max(1, G.jokers.config.card_limit - 1)
     end,
 
     remove_from_deck = function(self, card, from_debuff)
-        G.jokers.config.card_limit = G.jokers.config.card_limit + 2
+        G.jokers.config.card_limit = G.jokers.config.card_limit + 1
     end
 }
