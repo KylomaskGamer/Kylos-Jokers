@@ -22,8 +22,8 @@ SMODS.Booster {
     end,
     create_card = function(self, card, i)
         local weights = {
-            2,
-            0.1
+            3,
+            0.05
         }
         local total_weight = 0
         for _, weight in ipairs(weights) do
