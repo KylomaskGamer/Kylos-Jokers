@@ -20,6 +20,10 @@ Additions:
 One of the main collections of the mod, where literally every joker has Jimbob involved in it!
 You cant get away from them for a SECOND! 
 
+# Does this care about balancing?
+
+It tries to. This mod adds unique things to the game, but balancing is not highest priority. Although that, it tries not to overpower your Mult and make KylomaskGamer appear every 3rd Jimbob Pack.
+
 # Dependencies
 
 ```
