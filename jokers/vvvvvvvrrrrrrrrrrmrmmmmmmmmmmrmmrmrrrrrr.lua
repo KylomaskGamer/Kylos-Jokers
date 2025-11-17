@@ -38,14 +38,14 @@ SMODS.Joker { --VVVVVVVRRRRRRRRRRMRMMMMMMMMMMRMMRMRRRRRR
 
     loc_vars = function(self, info_queue, card)
         local skips = G.GAME.skips or 0
-        local pow = 1 + math.log(1 + skips, 2) -- always at least 1
+        local pow = 1 + math.log(math.max(skips,1), 2) -- always at least 1
         return { vars = { skips, pow } }
     end,
 
     calculate = function(self, card, context)
         if context.cardarea == G.jokers and context.joker_main then
             local skips = G.GAME.skips or 0
-            card.ability.extra.pow = 1 + math.log(1 + skips, 2) -- pow = Xmult, min 1
+            card.ability.extra.pow = 1 + math.log(math.max(skips,1), 2) -- pow = Xmult, min 1
             card.ability.extra.blindsskipped = skips
             return { Xmult = card.ability.extra.pow }
         end
