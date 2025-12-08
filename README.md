@@ -24,6 +24,10 @@ You cant get away from them for a SECOND!
 
 It tries to. This mod adds unique things to the game, but balancing is not highest priority. Although that, it tries not to overpower your Mult and make KylomaskGamer appear every 3rd Jimbob Pack.
 
+# Cross-Mod Support?
+
+No. I don't have the time to add many mod support such as Cryptid. It's dependent to nothing but Talisman and Itself.
+
 # Dependencies
 
 ```
