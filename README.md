@@ -46,3 +46,7 @@ Tools:
 # seal
 
 <img width="640" height="758" alt="image" src="https://github.com/user-attachments/assets/52d1bba6-37ad-4a13-8723-b0a9e6de16a4" />
+
+# NOTE
+
+if possible, do not talk about this mod (on it's ai generated methods) on the official balatro discord server. Not because it's not innapropriate, no. it's more that it contains AI generated content and the rules say that discussing about ai methods leads to a ban. so unless you want to spontaneously combust just be careful with discussion about this mod
